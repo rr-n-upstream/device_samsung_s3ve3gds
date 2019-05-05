@@ -18,14 +18,14 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from s3ve3g device
-$(call inherit-product, device/samsung/s3ve3g/device.mk)
+# Inherit from s3ve3gds device
+$(call inherit-product, device/samsung/s3ve3gds/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_s3ve3g
-PRODUCT_DEVICE := s3ve3g
+PRODUCT_NAME := aosp_s3ve3gds
+PRODUCT_DEVICE := s3ve3gds
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := GT-I9301I
+PRODUCT_MODEL := GT-I9300I
 PRODUCT_MANUFACTURER := Samsung
 
 # JDC Build Type
