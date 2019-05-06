@@ -32,3 +32,5 @@ PRODUCT_MANUFACTURER := Samsung
 JDC_BUILD_TYPE := ALPHA
 
 DEVICE_MAINTAINERS := M.H.K.JAHROMI, DarkJoker360, PhilSmith31, PythonLimited , Nikan Dalvand
+
+WITH_ROOT := true
