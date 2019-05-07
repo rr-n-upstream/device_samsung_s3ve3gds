@@ -17,12 +17,12 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Proprietary SONY files
 ifeq ($(VENDOR_SONY),true)
-$(call inherit-product, vendor/sony/s3ve3gds/s3ve3gds-vendor.mk)
+$(call inherit-product, vendor/samsung/s3ve3gds/sony/s3ve3gds-vendor.mk)
 endif
 
 # Proprietary SAMSUNG files
 ifeq ($(VENDOR_SAMSUNG),true)
-$(call inherit-product, vendor/samsung/s3ve3gds/s3ve3gds-vendor.mk)
+$(call inherit-product, vendor/samsung/s3ve3gds/samsung/s3ve3gds-vendor.mk)
 endif
 
 # Audio configuration
